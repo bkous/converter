@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UNIT CONVERTER</title>
+</head>
+<body>
+
+        <h1>Length Converter</h1>
+        <p>User enter a value in (km) to be convert to miles.</p>
+        
+        <p>
+          <label>Kilometers (km)</label>
+          <input id="inputKilometers" type="number" placeholder="Kilometers" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+        </p>
+        <span>Miles: <span id="outputMiles"></span></span>
+    
+<script src="script.js"></script>
+</body>
+</html>
